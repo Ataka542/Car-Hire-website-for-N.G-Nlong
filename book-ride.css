@@ -1,0 +1,114 @@
+.nav{
+    background:#000;
+}
+.nav ul li a{
+    color:#fff;
+}
+.nav ul li a:hover{
+    color:#009300;
+}
+.outer{
+    display:flex;
+    justify-content:space-between;
+    padding:100px 80px;
+}
+.outer .form-box, .outer .img-banner-box{
+    width:40%;
+}
+.outer img{
+    width:100%;
+}
+.form-box{
+    width:100%;
+}
+.form-box h1{
+    color:black;
+    margin:0;
+}
+.form-box p{
+    margin:0;
+}
+.form-box div button{
+    background:transparent;
+    padding:5px;
+    border:none;
+    outline:none;
+}
+.form-box .book-form{
+    margin-top:20px;
+    width:100%;
+}
+
+
+.form-box form label i{
+    margin-right:5px;
+    color:#666666;
+}
+.form-box form input{
+    margin-top:0px;
+    margin-bottom:15px;
+    width:100%;
+    padding:10px 15px;
+    box-sizing:border-box;
+    border:solid 1px #ddd;
+    border-radius:0px;
+    background:#fff;
+    color:black;
+}
+.form-box form input:focus{
+    outline:none;
+    border:solid 1px #009300;
+    box-shadow:0px 0px 10px #fff;
+}
+.form-box form p{
+    margin:0;
+    margin-bottom:20px;
+    color:#555;
+}
+.form-box form input[type="submit"]{
+    width:40%;
+    border:none;
+    background:#FAAC2E;
+    background:#000;
+    color:white;
+    float:right;
+}
+.form-box form label{
+    text-transform:capitalize;
+}
+#one-trip-btn{
+    box-shadow:0px 4px 0px #009300;
+}
+#round-trip-form{
+    display:none;
+}
+
+@media screen and (max-width:900px){
+*{
+    font-size:13px;
+}
+.form-box h1{
+    font-size:30px;
+}
+.form-box form{
+    width:100%;
+}
+.outer{
+    padding:100px 30px;
+}
+.outer div, .outer img{
+    width:100%;
+}
+.nav button i{
+    color:white;
+}
+.outer{
+    flex-direction:column;
+}
+.outer div img{
+    margin-top:50px;
+}
+.outer .form-box, .outer .img-banner-box{
+    width:100%;
+}
+}
